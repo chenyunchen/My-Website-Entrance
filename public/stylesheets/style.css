@@ -1,0 +1,81 @@
+body {
+  background-color: white;
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+a {
+  color: #00B7FF;
+  text-decoration: none;
+  width: 200px;
+}
+
+#title{
+  font-family: 'Black Ops One', cursive;
+  background: -webkit-linear-gradient(#FFFFFF, rgba(0,255,0,1));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 72px;
+}
+
+#canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+button {
+  position: absolute;
+  font-size: 14px;
+  -webkit-transition: all 1.2s ease-out;
+}
+
+#facebook{
+  top: 25%;
+  right: 10%;
+}
+
+#googleplus{
+  top: 60%;
+  left: 55%;
+}
+
+#mail{
+  top: 40%;
+  left: 20%;
+}
+
+#github{
+  top: 50%;
+  left: 40%;
+}
+
+#linkin{
+  top: 65%;
+  left: 25%;
+}
+
+#nisra{
+  top: 75%;
+  right: 18%;
+}
+
+#blog{
+  top: 80%;
+  left: 50%;
+}
+
+#speakerdeck{
+  top: 52%;
+  right: 20%;
+}
+
+#writeahead{
+  top: 35%;
+  left: 60%;
+}
+
+#wargame{
+  top: 80%;
+  left: 15%;
+}
